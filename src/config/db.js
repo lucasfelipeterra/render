@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const connectDB = async () => {
     try {
-        await mongoose.connect(`mongodb+srv://${process.env.MONGODB}/${process.env.DB_NAME}`);
+        await mongoose.connect(`mongodb+srv://lucasterra:Nov%40$enh%403@cluster0.1luq3.mongodb.net/Render`);
     } catch (error) {
         console.error("Erro ao conectar ao MongoDB", error);
     }
